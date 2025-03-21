@@ -17,23 +17,3 @@ My 2 repository on GitHub.
 ├── .env.example        # Пример файла .env
 ├── docker-compose.yml  # Настройки для Docker
 ├── README.md           # Информация о проекте
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
