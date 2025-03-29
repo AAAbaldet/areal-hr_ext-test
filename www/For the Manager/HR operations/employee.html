@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>employee accounting</title>
+	<link rel="stylesheet" href="/For the Manager/HR operations/style.css">
+</head>
+
+<body>
+	<div class="link-ease-in-out">
+		<a href="../Management/office.html" title="Employee">Сотрудники</a>
+		<a href="#" title="Feedback">Обратная связь</a>
+	</div>
+
+	<nav>
+		<div class="search-box">
+			<form action="#">
+				<input type="text" id="searchInput" placeholder="Поиск">
+				<button id="searchButton">Поиск</button>
+			</form>
+		</div>
+	</nav>
+
+	<nav>
+		<div class="container">
+			<h1>Управление сотрудниками</h1>
+			<div id="employeeForm" class="hidden">
+				<h2>Форма сотрудника</h2>
+				<form id="employeeForm">
+					<input type="text" id="lastName" placeholder="Фамилия" required>
+					<input type="text" id="firstName" placeholder="Имя" required>
+					<input type="text" id="middleName" placeholder="Отчество" required>
+					<p>Дата рождения</p>
+					<input type="date" id="dob" placeholder="Дата рождения" required>
+					<input type="text" id="passport" placeholder="Паспортные данные" required>
+					<input type="text" id="address" placeholder="Адрес регистрации" required>
+					<p>Дата принятия на работу</p>
+					<input type="date" id="work" placeholder="Дата принятия на работу" required>
+					<button id="saveButton" type="submit">Добавить сотрудника</button>
+				</form>
+			<h2>Список сотрудников</h2>
+			<ul id="employeeList"></ul>
+		</div>
+	
+    <script src="/For the Manager/HR operations/script.js"></script>
+</body>
+</html>

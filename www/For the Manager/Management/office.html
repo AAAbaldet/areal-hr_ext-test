@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>employee accounting</title>
+	<link rel="stylesheet" href="/For the Manager/Management/style.css">
+</head>
+
+<body>
+	<div class="link-ease-in-out">
+		<a href="../HR operations/employee.html" title="Office">Управление</a>
+		<a href="#" title="Feedback">Обратная связь</a>
+	</div>
+
+	<nav>
+	<div class="search-box">
+		<form action="#">
+			<input type="text" id="searchInput" placeholder="Поиск">
+    		<button id="searchButton">Поиск</button>
+		</form>
+	</div>
+	</nav>
+	
+	<div class="container">
+        <h1 id="content">Сотрудники</h1>
+
+        <form id="crudForm">
+			<div id="dataDisplay"></div>
+			
+            <input type="text" id="name" placeholder="Название организации" required>
+            <input type="text" id="department" placeholder="Отдел" required>
+            <input type="text" id="position" placeholder="Должность" required>
+			<input type="text" id="personal" placeholder="ФИО" required>
+            <button type="submit">Добавить</button>
+        </form>
+        <ul id="dataList"></ul>
+    </div> 
+	
+    <script src="/For the Manager/Management/script.js"></script>
+</body>
+</html>
