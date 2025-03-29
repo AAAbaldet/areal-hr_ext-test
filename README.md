@@ -3,12 +3,19 @@ My 2 repository on GitHub.
 
 areal-hr-test-2025/
 ├── /api/................................
+
 │   ├── /node_modules/...................
+
 │   ├── /migrations/.....................
+
 │   ├── /models/.........................
+
 │   │   ├── users.sql....................
+
 │   │   │   ├── CREATE TABLE users (
+
 │   │   │   │   user_id..................SERIAL PRIMARY KEY,
+
 │   │   │   │   username.................VARCHAR(255) UNIQUE NOT NULL,
 │   │   │   │   email....................VARCHAR(255) UNIQUE NOT NULL,
 │   │   │   │   password_hash............VARCHAR(255) NOT NULL,
